@@ -17,6 +17,9 @@ This personal project serves a dual purpose for me. It allows me to present my r
 ### 1. Setting up the Static Website on an S3 Bucket
 
 Configuring static website hosting on the S3 bucket, defining a unique bucket name, and configuring public policies for the website to be publicly accessible were crucial steps for this task.
+<img src="https://i.imgur.com/ijzAFIB.png" height="80%" width="80%" alt="Code commit permissions"/>
+<br />
+<br />
 
 ### 2. Purchasing the Domain Name and Configuring Routing with Route 53
 
