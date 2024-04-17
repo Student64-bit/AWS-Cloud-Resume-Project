@@ -40,3 +40,6 @@ ACM was employed to request a certificate for my static website, ensuring authen
 One challenge I encountered was the delay in reflecting changes made to files in my S3 bucket on my CloudFront-distributed website. After manually versioning my files with /* a few times, I realized that this issue could be resolved through CloudFront configurations or a Lambda function triggered whenever changes were made to my S3 bucket, updating the cache on CloudFront accordingly. Instead of opting for a Lambda function, I chose to address the issue through CloudFront configurations.
 
 I adjusted the Time to Live (TTL) settings to check my S3 cache for updates and distribute the most current S3 files every 1 minute, as opposed to every 1 day, which explained the delayed reflections of changes. While using /* for versioning works for automatic updates, configuring TTL is essential to determine how frequently cache hits or misses occur.
+<img src="https://i.imgur.com/MTlzdAq.png" height="80%" width="80%" alt="Code commit permissions"/>
+<br />
+<br />
