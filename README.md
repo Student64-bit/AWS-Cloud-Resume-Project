@@ -2,7 +2,7 @@
 
 ## Overview
 
-This personal project serves a dual purpose for me. It allows me to present my resume to employers in a more polished manner while also showcasing my proficiency in cloud technologies.
+This personal project serves a dual purpose for me. It allows me to present my resume to employers in a more polished manner while also demostrating some cloud technologies.
 
 ## AWS Services Used
 
