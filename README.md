@@ -23,7 +23,7 @@ Configuring static website hosting on the S3 bucket, defining a unique bucket na
 
 ### 2. Purchasing the Domain Name and Configuring Routing with Route 53
 
-I utilized Route 53 to register the domain name "iloricloud.com," allowing users to access my resume by simply typing "ilori.com" in their browsers. This setup enables traffic routing on the internet to my static S3 website.
+I utilized Route 53 to register the domain name "iloricloud.com," allowing users to access my resume by simply typing "iloricloud.com" in their browsers. This setup enables traffic routing on the internet to my static S3 website.
 <img src="https://i.imgur.com/b2izcit.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
 <br />
