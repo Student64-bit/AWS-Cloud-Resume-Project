@@ -24,10 +24,16 @@ Configuring static website hosting on the S3 bucket, defining a unique bucket na
 ### 2. Purchasing the Domain Name and Configuring Routing with Route 53
 
 I utilized Route 53 to register the domain name "iloricloud.com," allowing users to access my resume by simply typing "ilori.com" in their browsers. This setup enables traffic routing on the internet to my static S3 website.
+<img src="https://i.imgur.com/b2izcit.png" height="80%" width="80%" alt="Code commit permissions"/>
+<br />
+<br />
 
 ### 3. Using AWS Certificate Manager (ACM) and CloudFront for SSL Encryption and Content Distribution
 
 ACM was employed to request a certificate for my static website, ensuring authenticity and encrypting data in transit with SSL. Additionally, CloudFront was utilized for content distribution and HTTPS connections. It's worth noting that SSL certificates must be requested from the US-East-1 region for compatibility with major certificate distributors. Finally, I configured the SSL certificate with CloudFront to enable secure communication between users and the website.
+<img src="https://i.imgur.com/sWjdbV1.png" height="80%" width="80%" alt="Code commit permissions"/>
+<br />
+<br />
 
 ### 4. Configuring CloudFront TTL to Check My S3 Cache and Update My Website When Changes Are Made to My S3 Bucket
 
